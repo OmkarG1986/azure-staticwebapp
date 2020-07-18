@@ -26,7 +26,7 @@
       </button>
       <button class="button" aria-label="My Discounts">
         <a
-          href="https://github.com/johnpapa/shopathome"
+          href="https://github.com/OmkarG1986/azure-staticwebapp.git"
           target="_blank"
           rel="noopener noreferrer">
           <i class="fab fa-github" />
