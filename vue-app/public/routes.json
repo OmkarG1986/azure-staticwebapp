@@ -9,6 +9,14 @@
       "statusCode": "404"
     },
     {
+      "route": "/.auth/login/twitter",
+      "statusCode": "404"
+    },
+    {
+      "route": "/logout",
+      "serve": "/.auth/logout"
+    },
+    {
       "route": "/api/discounts",
       "allowedRoles": ["preferred"]
     },
@@ -30,6 +38,11 @@
     {
       "errorType": "NotFound",
       "serve": "/404.html"
+    },
+    {
+      "errorType": "Unauthenticated",
+      "statusCode": "302",
+      "serve": "/index.html"
     }
   ]
 }
